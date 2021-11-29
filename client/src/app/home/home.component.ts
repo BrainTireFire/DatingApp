@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  homeMode = false; // Show and hide home page 
   registerMode = false;
+  learnMode = false;
 
   constructor() { }
 
@@ -15,11 +17,23 @@ export class HomeComponent implements OnInit {
   }
 
   registerToggle() {
+    this.homeMode = !this.homeMode;
     this.registerMode = !this.registerMode;
   }
 
   cancelRegisterMode(event: boolean) {
+    this.homeMode = event;
     this.registerMode = event;
   }
 
+  //learn more page
+  learnMoreToggle() {
+    this.homeMode = !this.homeMode;
+    this.learnMode = !this.learnMode;
+  }
+
+  comeBackHomeMode(event: boolean) {
+    this.homeMode = event;
+    this.learnMode = event;
+  }
 }
