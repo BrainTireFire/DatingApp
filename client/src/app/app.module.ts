@@ -21,6 +21,7 @@ import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
 import { LearnMoreComponent } from './learn-more/learn-more.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { LearnMoreComponent } from './learn-more/learn-more.component';
     TestErrorsComponent,
     NotFoundComponent,
     ServerErrorComponent,
-    LearnMoreComponent
+    LearnMoreComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
