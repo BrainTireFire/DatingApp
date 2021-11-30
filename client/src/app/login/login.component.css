@@ -21,13 +21,12 @@ height: 370px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
 }
 
 .social_icon span{
-font-size: 60px;
+font-size: 50px;
 margin-left: 10px;
-color: #FFC312;
+color: #6fbaf0;
 }
 
 .social_icon span:hover{
@@ -41,15 +40,20 @@ color: white;
 
 .social_icon{
 position: absolute;
-right: 20px;
-top: -45px;
+right: 30px;
+top: -5px;
+}
+
+.form-control{
+margin-bottom: 15px;
 }
 
 .input-group-prepend span{
-width: 50px;
-background-color: #FFC312;
+width: 25px;
+background-color: #6fbaf0;
 color: black;
 border:0 !important;
+margin-bottom: 15px;
 }
 
 input:focus{
@@ -72,14 +76,28 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #FFC312;
+background-color: #6fbaf0;
 width: 100px;
+margin-right: 10px;
 }
 
 .login_btn:hover{
 color: black;
 background-color: white;
 }
+
+.cancel_btn{
+    color: black;
+    background-color: #e75151;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.cancel_btn:hover{
+    color: black;
+    background-color: white;
+}
+
 
 .links{
 color: white;
